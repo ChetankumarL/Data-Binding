@@ -6,7 +6,8 @@ To enable Databinding feature in your android project first. Open the build.grad
  
 # app/build.gradle
 
-android {
+
+
     dataBinding {
         enabled = true
     }
@@ -16,7 +17,7 @@ android {
         minSdkVersion 21
         // ..
     }
-}
+
 
 # To enable DataBinding in a layout, the root element should start with <layout> tag. Along with it, <data> and <variable> tags are used.
 
