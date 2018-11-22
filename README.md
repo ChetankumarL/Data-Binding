@@ -6,15 +6,12 @@ To enable Databinding feature in your android project first. Open the build.grad
  
 # app/build.gradle
 
-{
 android {
     dataBinding {
         enabled = true
     }
- 
-    compileSdkVersion 28
- 
-    defaultConfig {
+     compileSdkVersion 28
+     defaultConfig {
         applicationId "com.example.databinding"
         minSdkVersion 21
         // ..
