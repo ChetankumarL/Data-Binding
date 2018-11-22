@@ -6,6 +6,7 @@ To enable Databinding feature in your android project first. Open the build.grad
  
 # app/build.gradle
 
+{
 android {
     dataBinding {
         enabled = true
